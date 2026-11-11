@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly De Sousa | Desenvolvimento de Sistemas</title>
+
+<style>
+
+@keyframes gradientMove { 
+    0% {background-position: 0% 50%;} 
+    50% {background-position: 100% 50%;} 
+    100% {background-position: 0% 50%;} 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #000000, #3b0a45, #5e0b23, #c9184a);
+    background-size: 400% 400%;
+    animation: gradientMove 12s ease infinite;
+    color: #f8f9fa;
+    text-align: center;
+}
+
+header {
+    padding: 80px 20px 40px;
+}
+
+.foto-perfil img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #ff004c;
+    object-fit: cover;
+    box-shadow: 0px 0px 25px rgba(255, 0, 76, 0.5);
+}
+
+h1 {
+    font-size: 3em;
+    margin: 25px 0 10px;
+    color: #ff005c;
+    text-shadow: 0 0 15px rgba(255, 0, 100, 0.5);
+}
+
+section {
+    padding: 70px 20px;
+}
+
+h2 {
+    color: #ff80b5;
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+.curso {
+    background: rgba(255, 255, 255, 0.05);
+    margin: 40px auto;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 800px;
+    box-shadow: 0px 0px 25px rgba(255, 0, 76, 0.2);
+}
+
+.projetos {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    box-shadow: 0px 0px 25px rgba(255, 0, 76, 0.2);
+}
+
+.projeto-item {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 0, 100, 0.4);
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 750px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projeto-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 25px rgba(255, 0, 76, 0.4);
+}
+
+/* --- LADO A LADO (IMAGEM + QR CODE) --- */
+.projeto-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.projeto-imgs img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ff007f;     /* Borda rosa neon */
+    box-shadow: 0 0 15px #ff007f;  /* Efeito de brilho */
+}
+
+
+/* PROFESSOR */
+.professor {
+    margin-top: 80px;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 2px solid #ff004c;
+}
+
+.professor img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #ff004c;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px rgba(255, 0, 76, 0.4);
+    margin-top: 15px;
+}
+
+/* DEPOIMENTO */
+.depoimento {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 80px 20px;
+    margin-top: 60px;
+    border-top: 2px solid #ff004c;
+    border-bottom: 2px solid #ff004c;
+}
+
+.depoimento p {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #ffb3d9;
+    text-shadow: 0 0 12px rgba(255, 100, 150, 0.4);
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+footer {
+    padding: 30px;
+    color: #ff80b5;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1em;
+    border-top: 1px solid rgba(255, 0, 100, 0.4);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="foto-perfil">
+        <img src="c:\Users\Cliente\Downloads\WhatsApp Image 2026-03-13 at 14.45.19.jpeg" alt="Foto de Kelly">
+    </div>
+    <h1>Kelly De Sousa</h1>
+</header>
+
+<section class="curso">
+    <h2>Sobre o Curso</h2>
+    <p>O curso Técnico em Desenvolvimento de Sistemas forma profissionais preparados para criar e manter sites, aplicativos e sistemas completos. Durante a formação, os alunos aprendem lógica de programação, banco de dados, análise de sistemas e boas práticas do mercado. O objetivo do curso é capacitar o aluno para transformar problemas reais em soluções tecnológicas eficientes, unindo criatividade, lógica e organização. É uma área dinâmica, prática e conectada com as necessidades atuais do mundo digital. Mas também tem seus desafios: exige estudo constante, paciência para resolver erros e disciplina para acompanhar as tecnologias que mudam o tempo todo. Nem sempre o código funciona de primeira, e a rotina pede foco e persistência.</p>
+</section>
+
+<section class="projetos">
+    <h2>Meus Projetos</h2>
+
+    <!-- PROJETO 1 -->
+    <div class="projeto-item">
+        <h3>Projeto The Vampire Diares</h3>
+
+        <div class="projeto-conteudo">
+            <di class="projeto-imgs">
+
+                <div class="projeto-img">
+                    <img src="https://observatoriodocinema.com.br/wp-content/uploads/2019/05/The-Vampire-Diaries-Cast.jpg">
+                </div>
+
+            <p>Projeto em HTML que apresenta a série The Vampire Diares, trazendo um resumo da trama e dos personagens principais, destacando seus conflitos e a atmosfera sombria que move a história.</p>
+
+            <a href="https://gilded-panda-f580e1.netlify.app" class="btn-projeto">Acessar Projeto</a>
+        </div>
+    </div>
+
+    <!-- PROJETO 2 -->
+    <div class="projeto-item">
+        <h3>Desperate Housewives</h3>
+
+        <div class="projeto-conteudo">
+            <di class="projeto-imgs">
+
+                <div class="projeto-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMDljYmI5OTktNDFmNC00NmIxLWFhODktM2YyM2JlODVmMWUwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+                </div>
+
+            <p>Projeto em HTML que apresenta Desperate Housewives, destacando as quatro protagonistas e sua jornada ao longo das temporadas. O código organiza uma linha do tempo clara, mostrando a evolução de cada personagem e os segredos que movimentam Wisteria Lane, tudo de forma simples, direta e visualmente elegante.
+</p>
+
+            <a href="https://sensational-kulfi-3be1ab.netlify.app/" class="btn-projeto">Acessar Projeto</a>
+        </div>
+    </div>
+
+    <!-- PROJETO 3 -->
+    <div class="projeto-item">
+        <h3>Descendentes</h3>
+
+        <div class="projeto-conteudo">
+            <div class="projeto-imgs">
+
+                <div class="projeto-img">
+                    <img src="https://preview.redd.it/what-is-the-best-descendants-film-v0-oafsds9a8ftc1.jpg?width=640&crop=smart&auto=webp&s=35023d2a27beb1b6c7d23211c2c8272a7ec49268"> <!-- sua imagem -->
+                </div>
+
+
+
+            <p>Projeto em HTML que apresenta o universo de Descendentes, trazendo os principais personagens, seus poderes, suas origens e a jornada deles entre o bem e o mal dentro desse mundo mágico cheio de estilo.</p>
+
+            <a href="https://gorgeous-squirrel-7d8bd4.netlify.app/" class="btn-projeto">Acessar Projeto</a>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="professor">
+    <h2>Professor Orientador</h2>
+    <p><strong>Sávio Mendes</strong></p>
+    <img src="c:\Users\Cliente\Downloads\WhatsApp Image 2026-03-13 at 14.51.27.jpeg" alt="Professor Sávio Mendes">
+    <p>Responsável por orientar os alunos no aprendizado de programação, análise e criação de softwares, oferecendo suporte técnico e guiando o desenvolvimento de projetos.
+</p>
+</section>
+
+<section class="depoimento">
+    <p>“Programar me ensinou que até o caos pode ser organizado — basta um pouco de lógica e paixão.”</p>
+    <span>— Kelly, estudante de Desenvolvimento de Sistemas</span>
+</section>
+
+<footer>
+    <p>Apresentado na Feira de Profissões do CETI Helvídio Nunes | Desenvolvido por Kelly 🖤</p>
+</footer>
+
+</body>
+</html>
